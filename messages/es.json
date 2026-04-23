@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "whyUs": "Por Qué Nosotros",
+    "process": "Proceso",
+    "contact": "Contacto",
+    "cta": "Agendar Llamada"
+  },
+  "hero": {
+    "badge": "Agencia Digital · Software · IA",
+    "headline": "Tecnología que trabaja.",
+    "headlineAccent": "Tú solo cobras.",
+    "subheadline": "Automatizamos procesos, desarrollamos software a medida y construimos sistemas con IA que escalan tu negocio sin contratar más gente.",
+    "ctaPrimary": "Agendar Llamada Gratuita",
+    "ctaSecondary": "WhatsApp",
+    "stat1Value": "50+",
+    "stat1Label": "Proyectos entregados",
+    "stat2Value": "3×",
+    "stat2Label": "ROI promedio",
+    "stat3Value": "48h",
+    "stat3Label": "Primer prototipo"
+  },
+  "services": {
+    "badge": "Servicios",
+    "headline": "Todo lo que necesitas para escalar.",
+    "subheadline": "De la idea al sistema funcionando. Sin rodeos, sin equipos internos de IT.",
+    "items": [
+      {
+        "title": "Automatización de Procesos",
+        "description": "Eliminamos el trabajo manual con n8n, Make e integraciones a medida. Conectamos tus herramientas, automatizamos flujos completos y te devolvemos horas cada semana."
+      },
+      {
+        "title": "Desarrollo de Software a Medida",
+        "description": "Web apps, backends y APIs construidos exactamente para tu operación. Sin soluciones genéricas. Software que crece contigo desde el día uno."
+      },
+      {
+        "title": "Agentes de IA y Chatbots",
+        "description": "Agentes inteligentes con GPT-4 que atienden clientes, califican leads y gestionan tareas internas — 24/7, sin necesidad de supervisión humana."
+      },
+      {
+        "title": "Landing Pages que Convierten",
+        "description": "Páginas de aterrizaje diseñadas para vender. Rápidas, optimizadas para SEO y conectadas a tus herramientas de marketing desde el día uno."
+      },
+      {
+        "title": "SEO y Posicionamiento Web",
+        "description": "Tráfico orgánico que convierte. Optimizamos la base técnica, la estructura de contenido y la autoridad de tu sitio para que Google te envíe los clientes correctos."
+      },
+      {
+        "title": "Consultoría Digital",
+        "description": "Antes de construir, diseñamos. Mapeamos tu ecosistema digital, identificamos cuellos de botella y definimos la arquitectura exacta para que tu negocio escale sin fricciones."
+      }
+    ]
+  },
+  "why": {
+    "badge": "Por Qué Nosotros",
+    "headline": "Sin relleno.",
+    "headlineAccent": "Solo resultados.",
+    "subheadline": "Trabajamos como un socio tecnológico, no como un proveedor. Eso cambia todo.",
+    "items": [
+      {
+        "title": "Sin equipo interno de IT",
+        "description": "Nos encargamos de estrategia, construcción, despliegue y mantenimiento. Tú te enfocas en tu negocio."
+      },
+      {
+        "title": "Entrega en días, no meses",
+        "description": "Primer prototipo en 48 horas. Sin ciclos de planificación interminables. Solo progreso visible."
+      },
+      {
+        "title": "Un solo punto de contacto",
+        "description": "Un estudio, una responsabilidad. Somos dueños de todo el stack — de la base de datos a la interfaz."
+      },
+      {
+        "title": "Construido para escalar",
+        "description": "Cada solución se diseña para crecer. Más usuarios, más volumen, más funciones — sin reconstruir desde cero."
+      }
+    ]
+  },
+  "process": {
+    "badge": "Cómo Trabajamos",
+    "headline": "Del diagnóstico",
+    "headlineAccent": "al producto vivo.",
+    "subheadline": "Un proceso directo. Sabes qué pasa en cada paso.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Llamada de diagnóstico",
+        "description": "30 minutos entendiendo tu operación, tus fricciones y tus metas. Sin pitch, sin presión."
+      },
+      {
+        "number": "02",
+        "title": "Diseño de solución",
+        "description": "Mapeamos la arquitectura, definimos el alcance y presentamos una propuesta clara con cronograma y precio."
+      },
+      {
+        "number": "03",
+        "title": "Construcción e integración",
+        "description": "Construimos, probamos y conectamos todo. Ves el avance en tiempo real. Sin cajas negras."
+      },
+      {
+        "number": "04",
+        "title": "Despliegue y optimización",
+        "description": "Lanzamos, monitoreamos y seguimos mejorando. Tu sistema se vuelve más inteligente con el tiempo."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Hablemos",
+    "headline": "¿Listo para que la tecnología trabaje por ti?",
+    "headlineAccent": "",
+    "subheadline": "Agenda una llamada de 30 minutos. Identificamos tu mayor oportunidad y te decimos exactamente cómo capturarla.",
+    "ctaPrimary": "Agendar Llamada Gratuita",
+    "ctaSecondary": "WhatsApp",
+    "note": "Sin compromiso · Sin presión · Solo claridad"
+  },
+  "showcase": {
+    "badge": "Desarrollo con IA",
+    "headline": "Software que piensa",
+    "headlineAccent": "por sí solo.",
+    "body": "Embebemos inteligencia en cada capa. Tus sistemas no solo ejecutan — aprenden, se adaptan y actúan sin esperar instrucciones.",
+    "m1v": "12,847", "m1l": "leads procesados",
+    "m2v": "340h",   "m2l": "ahorradas / mes",
+    "m3v": "+62%",   "m3l": "tasa de conversión",
+    "codeComment": "// Agente de calificación de leads",
+    "codePrompt": "\"Califica este lead y agrégalo al pipeline\"",
+    "terminalRun": "▶ agent.run()",
+    "terminalOut1": "✓ Lead calificado: empresa · alta intención",
+    "terminalOut2": "✓ Deal creado en HubSpot · etapa: Discovery",
+    "terminalOut3": "1.3s · 0 errores"
+  },
+  "automation": {
+    "file": "calificacion_leads.flow",
+    "running": "ACTIVO",
+    "logTitle": "Registro de ejecución",
+    "nodes": [
+      { "label": "Webhook trigger",  "sub": "Nueva solicitud recibida" },
+      { "label": "Agente de IA",     "sub": "GPT-4 · Clasificar y calificar" },
+      { "label": "HubSpot CRM",      "sub": "Crear contacto y deal" },
+      { "label": "Slack",            "sub": "#ventas · Alerta alta intención" },
+      { "label": "Secuencia email",  "sub": "Campaña drip iniciada" }
+    ],
+    "logs": [
+      { "time": "14:03:01", "text": "Trigger — nuevo@cliente.com" },
+      { "time": "14:03:01", "text": "IA: alta intención · segmento empresa" },
+      { "time": "14:03:02", "text": "Contacto CRM creado ✓" },
+      { "time": "14:03:02", "text": "Slack #ventas notificado ✓" },
+      { "time": "14:03:03", "text": "Secuencia de email iniciada ✓" }
+    ]
+  },
+  "footer": {
+    "tagline": "Software a medida, automatización e IA para negocios que toman la tecnología en serio.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "links": {
+      "automation": "Automatización",
+      "software": "Software a Medida",
+      "ai": "Agentes de IA",
+      "landing": "Landing Pages",
+      "seo": "SEO",
+      "consulting": "Consultoría",
+      "about": "Quiénes Somos",
+      "contact": "Contacto"
+    },
+    "rights": "Todos los derechos reservados.",
+    "credit": "Construido con Claude Web Builder por"
+  }
+}

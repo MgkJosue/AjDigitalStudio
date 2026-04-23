@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "services": "Services",
+    "whyUs": "Why Us",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Book a Free Call"
+  },
+  "hero": {
+    "badge": "Digital Agency · Software · AI",
+    "headline": "Tech that works.",
+    "headlineAccent": "You just collect.",
+    "subheadline": "We automate processes, build custom software, and design AI systems that scale your business — without hiring more people.",
+    "ctaPrimary": "Book Free Diagnostic Call",
+    "ctaSecondary": "WhatsApp",
+    "stat1Value": "50+",
+    "stat1Label": "Projects delivered",
+    "stat2Value": "3×",
+    "stat2Label": "Average ROI",
+    "stat3Value": "48h",
+    "stat3Label": "First prototype"
+  },
+  "services": {
+    "badge": "Services",
+    "headline": "Everything you need to scale.",
+    "subheadline": "From idea to live system. No internal IT team required.",
+    "items": [
+      {
+        "title": "Process Automation",
+        "description": "We eliminate manual work using n8n, Make, and custom integrations. Connect your tools, automate full workflows, and reclaim hours every single week."
+      },
+      {
+        "title": "Custom Software Development",
+        "description": "Web apps, backends, and APIs built exactly for your operation. No off-the-shelf compromises. Software that grows with you from day one."
+      },
+      {
+        "title": "AI Agents & Chatbots",
+        "description": "GPT-4 powered agents that handle customer service, qualify leads, and run internal operations — 24/7, with zero human supervision."
+      },
+      {
+        "title": "Landing Pages That Convert",
+        "description": "Landing pages built to sell. Fast, SEO-optimized, and connected to your marketing stack from day one."
+      },
+      {
+        "title": "SEO & Web Positioning",
+        "description": "Organic traffic that converts. We optimize your technical foundation, content structure, and authority so search engines send you the right people."
+      },
+      {
+        "title": "Digital Architecture & Consulting",
+        "description": "Before you build, we design. We map your digital ecosystem, spot the gaps, and define the exact architecture for frictionless growth."
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Us",
+    "headline": "No fluff.",
+    "headlineAccent": "Just results.",
+    "subheadline": "We work like a technology partner, not a vendor. That changes everything.",
+    "items": [
+      {
+        "title": "No internal IT team required",
+        "description": "We handle strategy, build, deployment, and maintenance. You stay focused on growing the business."
+      },
+      {
+        "title": "Delivery in days, not months",
+        "description": "First prototype in 48 hours. No endless planning cycles. Just visible progress."
+      },
+      {
+        "title": "One point of contact",
+        "description": "One studio, one responsibility. We own the full stack — from database to UI."
+      },
+      {
+        "title": "Built to scale",
+        "description": "Every solution is designed to grow. More users, more volume, more features — without rebuilding from scratch."
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "headline": "From diagnosis",
+    "headlineAccent": "to live product.",
+    "subheadline": "A straight process. You know exactly what's happening at every step.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Free Diagnostic Call",
+        "description": "30 minutes understanding your operation, bottlenecks, and goals. No pitch, no pressure."
+      },
+      {
+        "number": "02",
+        "title": "Solution Design",
+        "description": "We map the architecture, define the scope, and present a clear proposal with timeline and price."
+      },
+      {
+        "number": "03",
+        "title": "Build & Integrate",
+        "description": "We build, test, and connect everything. You see progress in real time. No black boxes."
+      },
+      {
+        "number": "04",
+        "title": "Deploy & Optimize",
+        "description": "We launch, monitor, and keep improving. Your system gets smarter as your business grows."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Let's Talk",
+    "headline": "Ready to make technology work for you?",
+    "headlineAccent": "",
+    "subheadline": "Book a free 30-minute diagnostic call. We'll identify your biggest opportunity and tell you exactly how to capture it.",
+    "ctaPrimary": "Book Free Call",
+    "ctaSecondary": "WhatsApp",
+    "note": "No commitment · No pressure · Just clarity"
+  },
+  "showcase": {
+    "badge": "AI Development",
+    "headline": "Software that thinks",
+    "headlineAccent": "for itself.",
+    "body": "We embed intelligence into every layer. Your systems don't just run — they learn, adapt, and act without waiting for instructions.",
+    "m1v": "12,847", "m1l": "leads processed",
+    "m2v": "340h",   "m2l": "saved per month",
+    "m3v": "+62%",   "m3l": "conversion rate",
+    "codeComment": "// Lead qualification agent",
+    "codePrompt": "\"Qualify this lead and add to pipeline\"",
+    "terminalRun": "▶ agent.run()",
+    "terminalOut1": "✓ Lead qualified: enterprise · high-intent",
+    "terminalOut2": "✓ HubSpot deal created · stage: Discovery",
+    "terminalOut3": "1.3s · 0 errors"
+  },
+  "automation": {
+    "file": "lead_qualification.flow",
+    "running": "RUNNING",
+    "logTitle": "Execution log",
+    "nodes": [
+      { "label": "Webhook trigger",  "sub": "New form submission" },
+      { "label": "AI Agent",         "sub": "GPT-4 · Classify & qualify" },
+      { "label": "HubSpot CRM",      "sub": "Create contact + deal" },
+      { "label": "Slack notify",     "sub": "#sales · High-intent alert" },
+      { "label": "Email sequence",   "sub": "Drip campaign triggered" }
+    ],
+    "logs": [
+      { "time": "14:03:01", "text": "Trigger fired — new@client.com" },
+      { "time": "14:03:01", "text": "AI: high-intent · enterprise segment" },
+      { "time": "14:03:02", "text": "CRM contact created ✓" },
+      { "time": "14:03:02", "text": "Slack #sales notified ✓" },
+      { "time": "14:03:03", "text": "Email sequence started ✓" }
+    ]
+  },
+  "footer": {
+    "tagline": "Custom software, automation, and AI for businesses that take technology seriously.",
+    "services": "Services",
+    "company": "Company",
+    "links": {
+      "automation": "Automation",
+      "software": "Custom Software",
+      "ai": "AI Agents",
+      "landing": "Landing Pages",
+      "seo": "SEO",
+      "consulting": "Consulting",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "rights": "All rights reserved.",
+    "credit": "Built with Claude Web Builder by"
+  }
+}

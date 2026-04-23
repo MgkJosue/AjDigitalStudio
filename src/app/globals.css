@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: var(--font-syne);
+  --font-body: var(--font-dm-sans);
+  --font-mono: ui-monospace, "JetBrains Mono", monospace;
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --muted: #1a1a1a;
+  --muted-foreground: #6b6b6b;
+  --border: #222222;
+  --input: #1a1a1a;
+  --ring: #444444;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --radius: 0rem;
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    background: #000;
+    color: #fff;
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-syne), system-ui, sans-serif;
+  }
+  .font-body {
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
