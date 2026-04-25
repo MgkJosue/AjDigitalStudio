@@ -5,6 +5,8 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 
+const WHATSAPP_URL = "https://wa.me/12368788095";
+
 export default function Navbar() {
   const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
@@ -63,7 +65,9 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="#contact"
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex items-center px-5 py-2 border border-white/20 hover:border-white hover:bg-white hover:text-black text-white text-[13px] font-medium tracking-wide transition-all duration-200"
         >
           {t("cta")}
@@ -93,7 +97,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex items-center justify-center border border-white/30 hover:bg-white hover:text-black text-white py-3 px-6 text-sm font-medium transition-all duration-200"
           >

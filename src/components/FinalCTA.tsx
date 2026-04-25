@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import TechBackground from "./TechBackground";
 
 const WHATSAPP_URL = "https://wa.me/12368788095";
 
@@ -10,8 +11,9 @@ export default function FinalCTA() {
   const t = useTranslations("cta");
 
   return (
-    <section id="contact" className="bg-black text-white py-24 lg:py-36 border-t border-white/5">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+    <section id="contact" className="relative bg-black text-white py-24 lg:py-36 border-t border-white/5">
+      <TechBackground variant="section" />
+      <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +37,9 @@ export default function FinalCTA() {
 
           <div className="flex flex-wrap gap-3 mb-7">
             <a
-              href="#"
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-7 py-3.5 bg-white text-black text-sm font-semibold tracking-wide hover:bg-white/90 transition-colors font-body"
             >
               {t("ctaPrimary")}

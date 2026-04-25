@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function CodeShowcase() {
@@ -100,13 +99,7 @@ export default function CodeShowcase() {
         </div>
 
         {/* Divider */}
-        <div className="mt-20 flex items-center gap-6">
-          <div className="h-px flex-1 bg-white/5" />
-          <div className="relative w-12 h-12 opacity-10 shrink-0">
-            <Image src="/images/logo-badge.jpg" alt="" fill className="object-contain" sizes="48px" />
-          </div>
-          <div className="h-px flex-1 bg-white/5" />
-        </div>
+        <div className="mt-20 h-px bg-white/5" />
       </div>
     </section>
   );

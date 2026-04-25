@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import AutomationMock from "./AutomationMock";
+import TechBackground from "./TechBackground";
 
 const WHATSAPP_URL = "https://wa.me/12368788095";
 
@@ -12,14 +13,7 @@ export default function Hero() {
 
   return (
     <section className="relative bg-black">
-      {/* Subtle noise */}
-      <div
-        className="absolute inset-0 opacity-[0.02] pointer-events-none"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
-          backgroundSize: "200px",
-        }}
-      />
+      <TechBackground variant="hero" />
 
       <div className="relative max-w-[1400px] mx-auto w-full px-6 lg:px-12 pt-36 pb-20">
 
@@ -66,7 +60,9 @@ export default function Hero() {
               className="flex flex-wrap gap-3"
             >
               <a
-                href="#contact"
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-6 py-3 bg-white text-black text-sm font-semibold tracking-wide hover:bg-white/90 transition-colors font-body"
               >
                 {t("ctaPrimary")}
