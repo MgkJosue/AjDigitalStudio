@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/1234567890"; // TODO: Replace
+const WHATSAPP_URL = "https://wa.me/12368788095";
 
 export default function FinalCTA() {
   const t = useTranslations("cta");

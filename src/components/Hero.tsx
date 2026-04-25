@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import AutomationMock from "./AutomationMock";
 
-const WHATSAPP_URL = "https://wa.me/1234567890"; // TODO: Replace
+const WHATSAPP_URL = "https://wa.me/12368788095";
 
 export default function Hero() {
   const t = useTranslations("hero");

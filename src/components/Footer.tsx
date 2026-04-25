@@ -89,8 +89,8 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} AJ Digital Studio. {t("rights")}</p>
           <p>
             {t("credit")}{" "}
-            <a href="https://tododeia.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">
-              Tododeia
+            <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">
+              Aj Digital Studio
             </a>
           </p>
         </div>
